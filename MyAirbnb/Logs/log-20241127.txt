@@ -1,0 +1,71 @@
+2024-11-27 18:09:03.211 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:11:35.223 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:14:57.358 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:14:57.932 +07:00 [ERR] Failed executing DbCommand (40ms) [Parameters=[@__request_ReservationRequest_AccommodationId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT a0."Id", a0."Description", a0."LocationTagName", a0."MaxAdultsAllowed", a0."MaxChildrenAllowed", a0."MaxInfantsAllowed", a0."MaxPetsAllowed", a0."Name", a0."PricePerNight", r."Id", r."AccommodationId", r."AccommodationId1", r."CheckInDate", r."CheckOutDate", r."TotalAdults", r."TotalChildren", r."TotalInfants", r."TotalPets", r."TotalPrice", r."UserId"
+FROM (
+    SELECT a."Id", a."Description", a."LocationTagName", a."MaxAdultsAllowed", a."MaxChildrenAllowed", a."MaxInfantsAllowed", a."MaxPetsAllowed", a."Name", a."PricePerNight"
+    FROM "Accommodations" AS a
+    WHERE a."Id" = @__request_ReservationRequest_AccommodationId_0
+    LIMIT 1
+) AS a0
+LEFT JOIN "Reservations" AS r ON a0."Id" = r."AccommodationId1"
+ORDER BY a0."Id"
+2024-11-27 18:14:57.961 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MyAirbnb.DataAccess.ApplicationDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Reservations" does not exist
+
+POSITION: 634
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Reservations" does not exist
+    Position: 634
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "Reservations" does not exist
+
+POSITION: 634
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Reservations" does not exist
+    Position: 634
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+2024-11-27 18:16:53.615 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:16:58.903 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:17:18.275 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:17:42.355 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:17:42.827 +07:00 [ERR] An error occurred using the connection to database 'airbnb_clone' on server 'tcp://localhost:5432'.
+2024-11-27 18:17:57.048 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:18:09.181 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:18:09.318 +07:00 [ERR] An error occurred using the connection to database 'airbnb_clone' on server 'tcp://localhost:5432'.
+2024-11-27 18:18:53.004 +07:00 [WRN] The foreign key property 'Reservation.AccommodationId1' was created in shadow state because a conflicting property with the simple name 'AccommodationId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-11-27 18:23:16.624 +07:00 [ERR] An error occurred using the connection to database 'airbnb_clone' on server 'tcp://localhost:5432'.
+2024-11-27 18:23:34.031 +07:00 [ERR] An error occurred using the connection to database 'airbnb_clone' on server 'tcp://localhost:5432'.

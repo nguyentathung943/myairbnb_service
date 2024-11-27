@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18135179-B84A-4D64-A1B9-19B75D0C4147}|MyAirbnb.Core\\MyAirbnb.Core.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb.core\\commands\\authentication\\authenticateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18135179-B84A-4D64-A1B9-19B75D0C4147}|MyAirbnb.Core\\MyAirbnb.Core.csproj|solutionrelative:myairbnb.core\\commands\\authentication\\authenticateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\extensions\\authenticationconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\extensions\\authenticationconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\extensions\\mapsterconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\extensions\\mapsterconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\extensions\\loggerconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\extensions\\loggerconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\extensions\\swaggerconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\extensions\\swaggerconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|c:\\users\\james nguyen\\source\\repos\\myairbnb\\myairbnb\\controllers\\accomodationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8DEADB-DC1E-4346-9DDF-E4AB58BE5D86}|MyAirbnb\\MyAirbnb.API.csproj|solutionrelative:myairbnb\\controllers\\accomodationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticateUser.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb.Core\\Commands\\Authentication\\AuthenticateUser.cs",
+              "RelativeDocumentMoniker": "MyAirbnb.Core\\Commands\\Authentication\\AuthenticateUser.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb.Core\\Commands\\Authentication\\AuthenticateUser.cs",
+              "RelativeToolTip": "MyAirbnb.Core\\Commands\\Authentication\\AuthenticateUser.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:52:24.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MyAirbnb\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\appsettings.Development.json",
+              "RelativeToolTip": "MyAirbnb\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T12:52:09.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapsterConfigurationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\MapsterConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Extensions\\MapsterConfigurationExtension.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\MapsterConfigurationExtension.cs",
+              "RelativeToolTip": "MyAirbnb\\Extensions\\MapsterConfigurationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:51:26.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoggerConfigurationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\LoggerConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Extensions\\LoggerConfigurationExtension.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\LoggerConfigurationExtension.cs",
+              "RelativeToolTip": "MyAirbnb\\Extensions\\LoggerConfigurationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:51:25.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SwaggerConfigurationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\SwaggerConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Extensions\\SwaggerConfigurationExtension.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\SwaggerConfigurationExtension.cs",
+              "RelativeToolTip": "MyAirbnb\\Extensions\\SwaggerConfigurationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:49:56.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Program.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Program.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Program.cs",
+              "RelativeToolTip": "MyAirbnb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:48:55.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationConfigurationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\AuthenticationConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Extensions\\AuthenticationConfigurationExtension.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Extensions\\AuthenticationConfigurationExtension.cs",
+              "RelativeToolTip": "MyAirbnb\\Extensions\\AuthenticationConfigurationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:48:51.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "MyAirbnb\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:45:09.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccomodationController.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Controllers\\AccomodationController.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Controllers\\AccomodationController.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Controllers\\AccomodationController.cs",
+              "RelativeToolTip": "MyAirbnb\\Controllers\\AccomodationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:45:00.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "MyAirbnb\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\James Nguyen\\source\\repos\\MyAirbnb\\MyAirbnb\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "MyAirbnb\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:44:59.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
