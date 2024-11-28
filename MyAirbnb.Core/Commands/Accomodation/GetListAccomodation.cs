@@ -43,6 +43,16 @@ public class GetListAccomodation
 
                 var totalCount = await query.CountAsync();
 
+                if (request is { Offset: { } offset })
+                {
+                    accommodations = accommodations.Skip(offset).ToList();
+                }
+
+                if (request is { Limit: { } limit })
+                {
+                    accommodations = accommodations.Take(limit).ToList();
+                }
+
                 var response = new AccomodationGetListResponseDTO
                 {
                     Accomodations = accommodations,

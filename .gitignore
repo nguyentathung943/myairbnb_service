@@ -13,6 +13,7 @@ obj/
 
 # VS Code directories
 .vscode/
+.vs/
 .vscode-test/
 
 # DotNet Core
